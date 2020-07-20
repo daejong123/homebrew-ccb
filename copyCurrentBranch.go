@@ -54,7 +54,7 @@ func Branch() (branch string, err error) {
 func CopyCurrentBranch()  {
 
 	if currentBranch,error := Branch(); error != nil {
-		fmt.Println(error.Error())
+		fmt.Println("无法读取当前git分支，可能该目录不是git目录: " + error.Error())
 	} else {
 		clipboard.WriteAll(currentBranch)
 		fmt.Println("✅ ✅ 复制当前「" + currentBranch + "」成功， 去粘贴使用吧 !")
