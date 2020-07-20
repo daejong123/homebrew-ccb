@@ -1,7 +1,7 @@
 package main
 
-import "github.com/daejong123/go2git"
+import "github.com/daejong123/homebrew-ccb"
 
 func main() {
-	go2git.CopyCurrentBranch()
+	homebrew_ccb.CopyCurrentBranch()
 }

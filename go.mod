@@ -1,4 +1,4 @@
-module github.com/daejong123/go2git
+module github.com/daejong123/homebrew-ccb
 
 go 1.14
 

@@ -1,4 +1,4 @@
-package go2git
+package homebrew_ccb
 
 import (
 	"fmt"
