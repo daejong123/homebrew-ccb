@@ -4,25 +4,15 @@
 class Ccb < Formula
   desc ""
   homepage ""
-  url "https://github.com/daejong123/homebrew-ccb/blob/master/ccb_1.0.0.tar.gz"
-  sha256 "15ea58b7287c04a2581d891c3a4265ed7feec6f33358279b38a959230b475e14"
+  url "https://github.com/daejong123/homebrew-ccb/raw/master/ccb_1.0.0.tar.gz"
+  sha256 "00a92e7bdad08fbccd432360c9d14fedfb6ae714d686f90634e4359ae63e5ac1"
   license ""
 
   # depends_on "cmake" => :build
 
-  # def install
-  #   # ENV.deparallelize  # if your formula fails when building in parallel
-  #   # Remove unrecognized options if warned by configure
-  #   system "./configure", "--disable-debug",
-  #                         "--disable-dependency-tracking",
-  #                         "--disable-silent-rules",
-  #                         "--prefix=#{prefix}"
-  #   # system "cmake", ".", *std_cmake_args
-  # end
   def install
     bin.install "ccb"
   end
-
   test do
     # `test do` will create, run in and delete a temporary directory.
     #
