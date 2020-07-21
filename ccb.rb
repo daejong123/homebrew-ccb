@@ -2,13 +2,12 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Ccb < Formula
-  desc "copy current branch in terminal"
-  homepage "https://github.com/daejong123/homebrew-ccb"
-  url "https://github.com/daejong123/homebrew-ccb/raw/master/ccb_1.0.0.tar.gz"
-  sha256 "88d0aca55ba6f7195222fa204d54132e2c74ce85b45d2f833e990a2e93b7b920"
+  desc "Copy current branch in terminal"
+  version "1.0.0"
+  homepage "https://github.com/daejong123/go-ccb"
+  url "https://github.com/daejong123/go-ccb/releases/download/1.0.0/ccb_1.0.0.tar.gz"
+  sha256 "92426e82421a6c27857ad00da6b228645d5e2960c46701446bbe51e22dc19798"
   license "MIT"
-
-  # depends_on "cmake" => :build
 
   def install
     bin.install "ccb"

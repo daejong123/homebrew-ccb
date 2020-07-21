@@ -1,4 +1,1 @@
-/.idea
-/tmp
-/cli/log.txt
-log.txt
+*.tar.gz
