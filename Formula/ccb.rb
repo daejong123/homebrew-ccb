@@ -5,7 +5,7 @@ class Ccb < Formula
   desc ""
   homepage ""
   url "https://github.com/daejong123/homebrew-ccb/raw/master/ccb_1.0.0.tar.gz"
-  sha256 "00a92e7bdad08fbccd432360c9d14fedfb6ae714d686f90634e4359ae63e5ac1"
+  sha256 "88d0aca55ba6f7195222fa204d54132e2c74ce85b45d2f833e990a2e93b7b920"
   license ""
 
   # depends_on "cmake" => :build
