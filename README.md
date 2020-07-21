@@ -1,6 +1,6 @@
-## go2git
+## homebrew-ccb
 
-> copy current git branch!
+> copy current branch (git)!
 
 ### 安装
 
