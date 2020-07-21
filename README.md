@@ -5,8 +5,7 @@
 ### 安装
 
 ```shell script
-brew tap daejong123/ccb
-brew install ccb
+brew tap daejong123/ccb/ccb
 ```
 
 ### 使用
