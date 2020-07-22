@@ -7,7 +7,6 @@ class Ccb < Formula
   homepage "https://github.com/daejong123/go-ccb"
   url "https://github.com/daejong123/go-ccb/releases/download/1.0.0/ccb_1.0.0.tar.gz"
   sha256 "92426e82421a6c27857ad00da6b228645d5e2960c46701446bbe51e22dc19798"
-  license "MIT"
 
   def install
     bin.install "ccb"
